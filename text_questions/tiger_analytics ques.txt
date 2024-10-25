@@ -1,0 +1,29 @@
+"I have a Neural Network Architecture which takes in Customer Complaints for Apparels and classifies whether the complaints are related to Service, Quality and Fitment. All of them are mutually non exclusive and one or more can happen togather for the same complaint. How many Neurons will be there in my last layer, and which activation functions would I use?"
+
+
+Q-
+"Suppose I have Four Tasks and the second task(t2) is dependent on the first task (t1) while the third (t3) and the fourth task(t4)  is dependendent on the First Two Tasks. How would you define the DAG?"
+
+
+SoftMax , sigmoid activation functions
+
+
+class Access():
+
+	def __init__(self,a,b,c):
+
+		self.a=a
+
+		self._b=b
+
+		self.__c=c
+
+
+
+access=Access(a='a',b='b',c='c')
+
+print(access.a)
+
+print(access._b)
+
+print(access.__c)
